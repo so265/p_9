@@ -1,6 +1,6 @@
 Optimisez le référencement d'un site de photographe
 
-Le cadre de votre mission : 
+Le cadre de ma mission : 
 
 Faire une optimisation globale du site tant sur les performances que sur le SEO.
 Mettre en place le référencement local en utilisant Schema.org.
