@@ -6,12 +6,31 @@
 	<meta name="description" content="Portfolio de Nina Carducci, photographe professionnel. Découvrez ses services et sa galerie de photos.">
 	<meta name="keywords" content="photographie, photographe, portfolio, services, galerie, contact">
 	<title>Nina Carducci - Photographe</title>
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci photographie",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "France"
+		  },
+		  "telephone": "+33-5-56-67-78-89",
+		  "openingHours": "Mo-Fr 10:00-19:00"
+		}
+		</script>
 </head>
 <body>
 <header class="top-header">
@@ -36,13 +55,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1200px.jpg" class="d-block w-100" alt="Photo d'un homme de dos marchant avec un sac">
+				<img src="./assets/images/slider/ryoji-iwata.jpg" class="d-block w-100" alt="Photo d'un homme de dos marchant avec un sac">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1200px.jpg" class="d-block w-100" alt="foule de gens participant à un concert">
+				<img src="./assets/images/slider/nicholas-green.jpg" class="d-block w-100" alt="foule de gens participant à un concert">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1npdgw-unsplash-1200px.jpg" class="d-block w-100" alt="Photo d'un homme dansant avec une femme avec une longue robe blanche">
+				<img src="./assets/images/slider/edward-cisneros.jpg" class="d-block w-100" alt="Photo d'un homme dansant avec une femme avec une longue robe blanche">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Image précédente">
@@ -70,15 +89,15 @@
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-464px.jpg" alt="Photo de concert">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-464px.jpg" alt="Photo d'entreprise">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-464px.jpg" alt="Photo d'entreprise">
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-464px.jpg" alt="Photo de mariage">
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-464px.jpg" alt="Portrait">
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-464px.jpg" alt="Photo de mariage">
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg - 443cl1uR_8-unsplash-464px.jpg" alt="Portrait">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-464px.jpg" alt="Photo de concert">
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-464px.jpg" alt="Photo d'entreprise">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-01.jpg" alt="Photo de concert">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.jpg" alt="Photo d'entreprise">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.jpg" alt="Photo d'entreprise">
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.jpg" alt="Photo de mariage">
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.jpg" alt="Portrait">
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.jpg" alt="Photo de mariage">
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.jpg" alt="Portrait">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-02.jpg" alt="Photo de concert">
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.jpg" alt="Photo d'entreprise">
 		</div>
 	</div>
 	<div class="quote">
@@ -146,9 +165,9 @@
 	</div>
 </main>
 </footer>
-<script src="./assets/bootstrap/bootstrap.bundle.js" ></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" ></script>
-	<script src="./assets/maugallery.min.js" ></script>
-	<script src="./assets/scripts.min.js" ></script>
+<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
 </body>
 </html>
