@@ -6,7 +6,7 @@ body{max-width:1920px;margin:auto}*{font-family:'Inter';font-style:normal}.top-h
     height: 440px; /* Hauteur souhaitée en pixels */
 }
 
-.autre-classe-d-image {
+.picture img {
     width: 400px; /* Largeur souhaitée en pixels */
-    height: 250px; /* Hauteur souhaitée en pixels */
+    height: 400px; /* Hauteur souhaitée en pixels */
 }
