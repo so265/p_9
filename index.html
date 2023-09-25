@@ -7,35 +7,37 @@
 	<meta name="keywords" content="photographie, photographe, portfolio, services, galerie, contact">
 	<meta name="theme-color" content="#BEB45A"> <!-- utilisée pour spécifier la couleur que la barre d'adresse du navigateur doit afficher pour correspondre au thème du site web-->
 
-	<!--Balises meta OpenGraph pour Facebook-->
+	<!--Balises meta OpenGraph pour Facebook pour afficher des informations riches lorsque la page web est partagée -->
 	<meta property="og:title" content="Nina Carducci - Photographe sur Bordeaux">
 	<meta property="og:description" content="Mon portfolio ainsi que la description de mes services proposés pour photographier vos plus beaux moments">
 	<meta property="og:image" content="https://so265.github.io/p_9/assets/images/nina-small.webp">
-	<meta property="og:url" content="https://so265.github.io/p_9/">
-	<meta property="og:type" content="website"> <!-- Ajout de og:type -->
+	<meta property="og:url" content="https://so265.github.io/p_9/"> <!--L'adresse du site web-->
+	<meta property="og:type" content="website"> <!-- Ajout de og:type définit le type de contenu de la page, généralement "website" pour une page web standard-->
 	
 
-	<!--Balises Twitter Cards -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="https://so265.github.io/p_9/">
+	<!--Balises Twitter Cards utilisées par Twitter pour enrichir les tweets lorsque la page web est partagée sur cette plateforme-->
+	<meta name="twitter:card" content="summary"> <!--définit le type de Twitter Card à utiliser. Il s'agit d'une "summary card", qui est une carte Twitter standard qui inclut un titre, une description et une image.-->
+	<meta name="twitter:site" content="https://so265.github.io/p_9/"> <!--spécifie le nom d'utilisateur du compte Twitter associé à mon site web-->
 	<meta name="twitter:title" content="Nina Carducci - Photographe sur Bordeaux">
 	<meta name="twitter:description" content="Mon portfolio ainsi que la description de mes services proposés pour photographier vos plus beaux moments">
 	<meta name="twitter:image" content="https://so265.github.io/p_9//assets/images/nina-small.webp">
 
 	<title>Nina Carducci - Photographe</title>
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">  <!--Permet d'utiliser les feuilles de styles css-->
 	<link rel="stylesheet" href="./assets/style.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">  <!--google fonts police de charactére -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!--Optimise le chargement des polices Google Fonts."crossorigin" autorise le chargement depuis un domaine externe -->
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="./assets/maugallery.min.js" defer></script>
-	<script src="./assets/scripts.min.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script> <!--un "bundle" est un fichier qui regroupe plusieurs scripts JS en un seul fichier pour charger plus vite-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script> <!--bibliotheque js-->
+	<script src="./assets/maugallery.min.js" defer></script> <!--plugin conçu pour simplifier la création de galeries d'images interactives sur des pages web.-->
+	<script src="./assets/scripts.min.js" defer></script>  <!--code JS central nécessaire pour rendre le site web interactif et fonctionnel-->
 	<!--shema.org-->
+	<!--@context": "http://schema.org" indique que les données suivantes sont conformes à Schema.org.-->
+	<!--balise HTML utilisée pour incorporer des données structurées au format JSON-LD dans une page web-->
 	<script type="application/ld+json"> 
 		{
-		  "@context": "http://schema.org",
+		  "@context": "http://schema.org",  
 		  "@type": "LocalBusiness",
 		  "name": "Nina Carducci photographie",
 		  "image": "https://so265.github.io/p_9//assets/images/nina.webp",
